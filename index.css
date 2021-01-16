@@ -1,0 +1,341 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color: rgb(255, 255, 255)
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+.header{
+    position: fixed;
+    right: 0;
+    width: 20%;
+    height: 100%;
+
+}
+.header-menu {
+    list-style: none;
+}
+.header-menu li{
+    padding: 10px 0 10px 20%;
+}
+
+.header-menu li:hover{
+    text-decoration: underline;
+}
+.header img{
+    padding-left: 20%;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.header-icon{
+    padding-top: 50px;
+}
+.header-icon .btn{
+    padding-right:10px;
+    font-size: 20px;
+}
+.mein-1{
+    width: 80%;
+}
+.mein-1 img{
+    width: 100%;
+}
+.coment {
+    
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.one{
+    padding-left: 20%;
+}
+.message{
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    padding-top: 76px;
+    padding-bottom: 19px;
+    border-bottom: solid 1px white;
+    margin-bottom: 68px;
+}
+.coment-2{
+    width: 77%;
+    margin: 0 auto;
+    text-align: initial;
+    padding-bottom: 77px;
+}
+.mein-2 img{
+    width: 33.3333333333333333%;
+    vertical-align: bottom;
+}
+.mein-2 .conan{
+    width: 100%;
+}
+.mein-3{
+    width: 79.21%;
+    margin: 0 auto;
+    text-align: center;
+}
+.books{
+    display: flex;
+}
+.BRAND{
+    display: inline-block;
+    padding: 75px 0 21px 0;
+    margin-bottom: 62px;
+    font-size: 22px;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    border-bottom: solid 1px rgb(247, 247, 247);
+
+}
+.size{
+    width: 30000px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 1px rgb(247, 247, 247);
+}
+.logo{
+    box-sizing: border-box;
+    width: 25%;
+    text-align: initial;
+    padding:0px 34px 47px 34px;
+    margin-bottom: 76px;
+    border-bottom: solid 1px rgb(247, 247, 247);
+
+}
+.last-boder{
+    border-bottom: solid 1px rgb(247, 247, 247);
+}
+.coment-3{
+    padding-bottom: 77px;
+    display: flex;
+    text-align: left;
+}
+.coment-3 img{
+    padding-right: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.image-mg{
+    text-align: center;
+}
+.project{
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    border-bottom: solid 1px white;
+    padding-bottom: 24px;
+    margin-bottom: 64px;
+    
+}
+.mein-4{
+    width: 76%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: solid 1px white;
+}
+.last{
+       margin: 0 auto;
+       text-align: center;
+       width: 76%;
+       padding-bottom: 340px;
+
+}
+.company{
+   
+    padding: 63px 0 28px 0;
+    border-bottom: solid 1px white;
+    display: inline-block;
+    margin-bottom: 73px;
+    font-size: 22px;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+
+}
+.map{
+    display: flex;
+    font-size: 14px;
+}
+.map p{
+    text-align: left;
+    padding-bottom: 24px;
+}
+.ma{
+    padding-left: 240px;
+}
+
+footer{
+    text-align: center;
+    width: 33%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+footer a{
+    color: blue;
+}
+
+.list-2{
+    padding: 0px 20px;
+    padding-right:10px;
+    font-size: 20px;
+}
+.aaaa ul a{
+    text-decoration: none;
+}
+.list-22{
+    border-bottom: solid 1px white;
+}
+.nav_toggle {
+    display: block;
+    position: relative;
+    right: 0;
+    width: 1.75rem;
+    height: 1.5rem;
+    position: fixed;
+    top: 14px;
+}
+.nav_toggle i {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color:white;
+    position: absolute;
+    transition: transform .5s, opacity .5s;
+}
+.nav_toggle i:nth-child(1) {
+    top: 0;
+}
+.nav_toggle i:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.nav_toggle i:nth-child(3) {
+    bottom: 0;
+}
+
+.nav_toggle.show i:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+}
+.nav_toggle.show i:nth-child(2) {
+    opacity: 0;
+}
+.nav_toggle.show i:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
+
+.nav{
+    display: none;
+}
+.show {
+    display: block;
+}
+.nav_toggle{
+    display: none;
+}
